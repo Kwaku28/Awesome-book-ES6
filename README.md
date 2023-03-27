@@ -72,7 +72,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Awesome Book](https://kwaku28.github.io/Awesome-book/)
+- [Awesome Book](https://kwaku28.github.io/Awesome-book-ES6/)
 
 <!-- GETTING STARTED -->
 
@@ -96,7 +96,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Kwaku28/Awesome-book.git
+  git clone https://github.com/Kwaku28/Awesome-book-ES6.git
 ```
 
 ### Usage
