@@ -19,7 +19,7 @@ class BookList {
       });
     }
 
-    addBookToPage(bookName, bookAuthor, id) {
+    addBookToPage = (bookName, bookAuthor, id) => {
       const bookContainer = document.createElement('div');
       bookContainer.classList.add('book_container');
       bookContainer.classList.add(`book${id}`);
@@ -45,7 +45,7 @@ class BookList {
     }
 
     // Add book to booklist, update local storage and page view
-    addBook(bookName, bookAuthor) {
+    addBook = (bookName, bookAuthor) => {
       const book = {};
       book.title = bookName;
       book.author = bookAuthor;
@@ -54,7 +54,7 @@ class BookList {
       this.addBookToPage(bookName, bookAuthor, this.bookList.length - 1);
     }
 
-    loadBooks(bookList = this.bookList) {
+    loadBooks = (bookList = this.bookList) => {
       this.booksContainer.textContent = '';
       for (let i = 0; i < bookList.length; i += 1) {
         this.addBookToPage(bookList[i].title, bookList[i].author, i);

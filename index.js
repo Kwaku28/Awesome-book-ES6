@@ -10,4 +10,4 @@ const now = DateTime.now();
 dateContainer.innerHTML = `${now.day}/${now.month}/${now.year} ${now.hour}:${now.minute}`;
 
 bookObj.loadBooks();
-window.onload(nav);
+window.onload = (nav);
